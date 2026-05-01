@@ -1,0 +1,225 @@
+@import url('https://fonts.googleapis.com/css2?family=SN+Pro:ital,wght@0,200..900;1,200..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playwrite+NZ+Basic:wght@100..400&display=swap');
+
+header{
+  background-color: #3a0202;
+  text-align: center;
+}
+
+main{
+  max-width: 1000px;
+  margin: 20px auto;
+  padding: 10px;
+}
+
+body{
+   background-color: #FFFFFF;
+   font-family: "SN Pro", sans-serif;
+   margin: 0;
+
+}
+
+h1, h2, h3 {
+  font-family: "Playwrite NZ Basic", cursive;
+}
+
+h2{
+  background-color: #8B0000;
+  color: white;
+  text-align: center;
+  font-size: 2em;
+  letter-spacing: 0.02em;
+}
+footer {
+
+  border-top: purple 3px solid;
+  text-align: center;
+  
+}
+
+
+a:link{
+  color: white;
+}
+a:visited{
+  color: white;
+}
+a:hover{
+  color: white;
+}
+a:active{
+  color: black;
+}
+
+nav{
+  text-align: center;
+  background-color: #8B0000;
+  border-top: 3px solid black;
+  border-bottom: 3px solid black;
+  padding: 10px;
+}
+nav ul{
+  list-style-type: none;
+  padding: 0;
+  margin: 8px 0;
+  }
+nav li{
+  display: inline;
+  padding: 10px;
+}
+nav a{
+  text-decoration: none;
+}
+nav a:link{
+  color: white;
+}
+nav a:visited{
+  color: white;
+}
+nav a:hover{
+  color: #dddddd; 
+}
+nav a:active{
+  color: black;
+}
+
+.logo{
+  max-width: 350px;
+  height: auto;
+  display: block;
+  margin: 0 auto;
+  padding: 10px;
+}
+.float-right{
+  float: right;
+  margin: 15px 0 15px 15px;
+  border-radius: 8px;
+  box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.2);
+  max-width: 300px;
+  height: auto;
+}
+#home-hero{
+  background-image: url(images/guitars.jpg);
+  height: 400px;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+#home-hero h1{
+  text-align: center;
+  color: white;
+  text-shadow: 2px 2px 2px black;
+  margin: 0;
+  padding: 10px;
+  background-color: rgba(0,0,0,.5);
+}
+
+
+td, th {
+  border: 1px solid black;
+  padding: 10px;
+}
+
+table{
+  border-collapse: collapse;
+  margin: 0 auto;
+}
+
+th {
+  background-color:darkred;
+  color: white;
+}
+
+td {
+  background-color:white;
+}
+
+tr:nth-child(even) td{ background-color: #ba6767;
+}
+
+form{
+  width: 320px;
+  margin: 0 auto;
+  border: 2px solid black;
+  padding: 20px;
+  background-color: #F4F4F4;
+}
+
+input[type=text],
+input[type=email],
+input[type=tel]{
+  background-color: #eeeeee;
+}
+
+input[type=submit]{
+  background-color: darkred;
+  color: white;
+  padding: 10px 18px;
+  border: none;
+  border-radius: 4px;
+}
+
+label{
+  float: left;
+  width: 8em;
+  padding-right: 1em;
+}
+
+input{
+  margin-bottom: 1em;
+  display: block;
+}
+
+input[type=submit]{
+display: block;
+background-color: #8D0000;
+color: white;
+padding: 10px 25px;
+border: 3px #ba6767;
+border-radius: 25px;
+font-weight: bold;
+display: block;
+margin: 10px auto;
+cursor: pointer;
+}
+
+input, textarea{
+  margin-bottom: 1em;
+  display: block;
+}
+textarea{
+  background-color: #eeeeee;
+}
+
+footer{
+  border-top: #8D0000 3px solid;
+  text-align: center;
+  background: linear-gradient(to right, #8B0000, #ba6767, #8B0000);
+  color: white;
+  padding: 20px;
+}
+
+/*CSS without a media query--applies to all sizes unless overridden*/
+h1{
+    font-size: 4em;
+    text-align: center;
+ }
+
+
+/* CSS Adjustments for Tablets */
+@media only screen and (max-width: 1024px) {
+  h1{
+    font-size: 1.8em;
+  }
+}
+
+
+
+/* CSS Adjustments for Smartphones */
+@media only screen and (max-width: 768px) {
+  h1{
+    font-size: 1.5em;
+  }
+}
+
+

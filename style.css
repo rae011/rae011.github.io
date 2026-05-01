@@ -1,0 +1,272 @@
+@import url('https://fonts.googleapis.com/css2?family=SN+Pro:ital,wght@0,200..900;1,200..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playwrite+NZ+Basic:wght@100..400&display=swap');
+
+
+/* header styling */
+header{
+  text-align: center;
+  background-color: #d1b3ff;
+  padding: 20px 0;
+  width: 100%;
+  margin: 0;
+}
+h1, h2, h3 {
+  font-family: "Playfair Display", serif;
+  color: #4d004d;
+}
+/* background for page and font */
+body{
+   background-color: #f3e8ff;
+   font-family: "SN Pro", sans-serif;
+   margin: 0;
+   color: #4d004d;
+}
+
+main{
+  max-width: 1000px;
+  margin: 40px auto;
+  padding: 20px;
+}
+h2{
+  margin-bottom: 15px;
+}
+p{
+  margin-bottom: 15px;
+}
+
+a:link{
+  color: #6600cc;
+}
+a:visited{
+  color: #6600cc;
+}
+a:hover{
+  color: #b266ff;
+}
+a:active{
+  color: #b266ff;
+}
+
+nav{
+  background-color: #cc99ff;
+  border-top: 3px solid #b266ff;
+  border-bottom: 3px solid #b266ff;
+  text-align: center;
+  padding: 5px 0;
+}
+nav ul{
+  list-style-type: none;
+  margin: 0;
+  padding: 5px 0;
+}
+nav li{
+  display: inline-block;
+  margin: 0 10px;
+}
+nav a{
+  text-decoration: none;
+}
+
+
+nav a:link{
+  color: white;
+}
+nav a:visited{
+  color: white;
+}
+nav a:hover{
+  color: #dddddd; 
+}
+nav a:active{
+  color: black;
+}
+
+.about-img{
+  max-height: 450px;
+  width: 100%;
+  object-fit: cover;
+}
+.logo{
+  max-width: 120px;
+  height: auto;
+  display: block;
+  margin: 0 auto;
+}
+.row{
+  margin-bottom: 50px;
+}
+.home-photo{
+  margin: 0 0 20px 20px;
+  border-radius: 10px;
+}
+.hero-image{
+  background-image: url("images/flowers.jpg");
+  background-size: cover;
+  background-position: center;
+  height: 350px;
+  width: 100%;
+  background-repeat: no-repeat;
+}
+.hero-image h1{
+  color: white;
+  font-size: 55px;
+  text-shadow: 2px 2px 2px purple;
+  margin: 0;
+  text-align: center;
+}
+
+
+.resume-container{
+  max-width: 800px;
+  padding: 40px;
+  margin: 40px auto;
+  background-color: white;
+}
+
+
+.col-sm-6 p{
+  line-height: 1.6;
+}
+.col-sm-6 h2{
+  margin-bottom: 15px;
+}
+.row .col-sm-4{
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+.row .col-sm-4 a{
+  display: inline-block;
+  padding: 20px;
+  border-radius: 10px;
+  transition: 0.3s;
+}
+.row .col-sm-4 a:hover{
+  background-color: #e6ccff;
+  transform: translateY(-5px);
+}
+
+.game-page{
+  text-align: center;
+  max-width: 900px;
+  margin: 0 auto;
+}
+.game-page h1{
+  color: #b57edc;
+}
+.game-wrapper{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.instructions{
+  color: #b57edc;
+}
+.myButton{
+  background-color: #c8a2ff;
+  color: white;
+  padding: 12px 25px;
+  margin: 5px;
+  border: none;
+  border-radius: 8px;
+  font-weight: bold;
+  cursor: pointer;
+}
+.myButton:hover{
+  background-color: #a678d1;
+}
+
+footer {
+  border-top: #d1b3ff 3px solid;
+  text-align: center;
+  clear: both;
+  background-color: #d1b3ff;
+}
+
+.footer-top{
+  background-color: #b266ff;
+  color: white;
+  padding: 40px 20px;
+}
+.footer-top h3{
+  color: white;
+  margin-bottom: 15px;
+}
+.footer-top a{
+  color: white;
+}
+.footer-top a:hover{
+  color: #dddddd;
+}
+.footer-icons i{
+  margin-right: 8px;
+}
+.footer-bottom{
+  background-color: black;
+  color: white;
+  text-align: center;
+  padding: 10px;
+  font-size: 0.9em;
+}
+
+
+
+.gallery-container{
+  max-width: 1000px;
+  margin: 40px auto;
+  padding: 20px;
+}
+.gallery-item{
+  margin-bottom: 20px;
+}
+.gallery-item img{
+  border-radius: 12px;
+  transition: 0.3s ease;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+.gallery-item img:hover{
+  transform: scale(1.05);
+}
+
+
+#lightbox {
+top: 0;
+left: 0;
+width: 100%;
+height: 100%;
+position: fixed;
+background-color: rgba(0,0,0,0.9);
+display: none;
+justify-content: center;
+align-items: center;
+}
+
+#lightbox img {
+max-height: 90%;
+border-radius: 10px;
+max-width: 90%;
+}
+
+
+
+/*CSS without a media query--applies to all sizes unless overridden*/
+h1{
+    font-size: 4em;
+ }
+
+
+/* CSS Adjustments for Tablets */
+@media only screen and (max-width: 1024px) {
+  h1{
+    font-size: 1.8em;
+  }
+}
+
+
+
+/* CSS Adjustments for Smartphones */
+@media only screen and (max-width: 768px) {
+  h1{
+    font-size: 1.5em;
+  }
+}

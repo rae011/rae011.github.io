@@ -1,0 +1,179 @@
+@import url('https://fonts.googleapis.com/css2?family=SN+Pro:ital,wght@0,200..900;1,200..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playwrite+NZ+Basic:wght@100..400&display=swap');
+
+
+header{
+  text-align: center;
+  color: #b30000; 
+  padding: 10px;
+}
+
+
+main{
+  max-width: 1200px;
+  margin: 20px auto;
+  padding: 10px;
+}
+
+body{
+   background-color: #0d0d0d;
+   font-family: "SN Pro", sans-serif;
+   margin: 0;
+   color: #f2f2f2;
+
+}
+
+h1, h2, h3 {
+  font-family: "Playwrite NZ Basic", cursive;
+  color: #b30000;
+}
+
+
+footer {
+  border-top: 3px solid #b30000;
+  text-align: center;
+  padding:  25px 10px;
+  color: #f2f2f2;
+}
+footer h5{
+  color: #ff4d4d;
+  margin-bottom: 10px;
+}
+
+p{
+  line-height: 1.6;
+  font-size: 1.05em;
+}
+.fa{
+  color: #b30000;
+}
+.fa:hover{
+  color: #ff1a1a;
+  transform: scale(1.2);
+}
+a:link{
+  color: #ff4d4d;
+}
+a:visited{
+  color: #ff4d4d;
+}
+a:hover{
+  color: white;
+}
+a:active{
+  color: black;
+}
+
+
+
+nav{
+  text-align: center;
+  background-color: #1a0000;
+  border-top: 3px solid #b30000;
+  border-bottom: 3px solid #b30000;
+}
+nav ul{
+  list-style-type: none;
+  padding: 0;
+  margin: 8px 0;
+  }
+nav li{
+  display: inline;
+  padding: 10px;
+}
+nav a{
+  text-decoration: none;
+  color: white;
+}
+
+
+nav a:link{
+  color: white;
+}
+nav a:visited{
+  color: white;
+}
+nav a:hover{
+  color: #ff4d4d; 
+}
+nav a:active{
+  color: black;
+}
+
+.hero-image{
+  height: 400px;
+  width: 100%;
+  border: 3px solid #b30000;
+  border-radius: 15px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+  object-fit: cover;
+}
+
+blockquote{
+  background-color: #1a1a1a;
+  border-left: 8px solid #b30000;
+  padding: 25px;
+  margin: 20px auto;
+  max-width: 900px;
+  border-radius: 10px;
+  color: #f2f2f2;
+}
+img{
+  max-width: 100%;
+  border-radius: 12px;
+}
+
+
+.gallery .preview{
+    width: 100%;
+    height: auto;
+}
+.gallery .gallery-thumbnails {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+.gallery .gallery-thumbnails img {
+    width: 100px;
+    height: 75px;
+    margin: 3px 10px 10px 0;
+}
+
+.gallery .gallery-thumbnails img:hover {
+    opacity: 0.8;
+    cursor: pointer;
+}
+
+.gallery .preview img#preview {
+    padding: 1px;
+    max-width: 100%;
+    height: auto;
+    margin: 0 auto !important;
+    display: block !important;
+}
+
+
+
+/*CSS without a media query--applies to all sizes unless overridden*/
+h1{
+    font-size: 4em;
+ }
+
+
+/* CSS Adjustments for Tablets */
+@media only screen and (max-width: 1024px) {
+  h1{
+    font-size: 1.8em;
+  }
+}
+
+
+
+/* CSS Adjustments for Smartphones */
+@media only screen and (max-width: 768px) {
+  h1{
+    font-size: 1.5em;
+  }
+}
+

@@ -1,0 +1,136 @@
+@import url('https://fonts.googleapis.com/css2?family=SN+Pro:ital,wght@0,200..900;1,200..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playwrite+NZ+Basic:wght@100..400&display=swap');
+
+
+header{
+  text-align: center;
+  color: #2e6a94; 
+}
+
+
+main{
+  max-width: 1200px;
+  margin: 20px auto;
+  padding: 10px;
+}
+
+body{
+   background-color: #eaf6ff;
+   font-family: "SN Pro", sans-serif;
+   margin: 0;
+
+}
+
+h1, h2, h3 {
+  font-family: "Playwrite NZ Basic", cursive;
+  color: #2e6a94;
+}
+
+footer {
+  border-top: 3px solid #2e6a94;
+  text-align: center;
+}
+.fa{
+  color: #2b6f9e;
+}
+.fa:hover{
+  color: #4fb6ff;
+  transform: scale(1.2);
+}
+a:link{
+  color: #b300b3;
+}
+a:visited{
+  color: #b300b3;
+}
+a:hover{
+  color: blue;
+}
+a:active{
+  color: black;
+}
+
+
+
+nav{
+  text-align: center;
+  background-color: #4fb6ff;
+  border-top: 3px solid #2b6f9e;
+  border-bottom: 3px solid #2b6f9e;
+}
+nav ul{
+  list-style-type: none;
+  padding: 0;
+  margin: 8px 0;
+  }
+nav li{
+  display: inline;
+  padding: 10px;
+}
+nav a{
+  text-decoration: none;
+  color: white;
+}
+
+
+nav a:link{
+  color: white;
+}
+nav a:visited{
+  color: white;
+}
+nav a:hover{
+  color: #eaf6ff; 
+}
+nav a:active{
+  color: black;
+}
+
+.home-hero{
+  background-image:url(images/header.jpg);
+  height: 475px;
+  background-size: cover;
+  background-position: center;
+  color: white;
+  padding: 10px 10px 10px 30px;
+  border-radius: 12px;
+}
+blockquote{
+  background-color: #dff3ff;
+  border-left: 8px solid #4fb6ff;
+  padding: 25px;
+  margin: 20px auto;
+  max-width: 900px;
+  border-radius: 10px;
+  color: #003b57;
+}
+img{
+  display: block;
+  margin: 0 auto;
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
+}
+
+
+
+/*CSS without a media query--applies to all sizes unless overridden*/
+h1{
+    font-size: 4em;
+ }
+
+
+/* CSS Adjustments for Tablets */
+@media only screen and (max-width: 1024px) {
+  h1{
+    font-size: 1.8em;
+  }
+}
+
+
+
+/* CSS Adjustments for Smartphones */
+@media only screen and (max-width: 768px) {
+  h1{
+    font-size: 1.5em;
+  }
+}
